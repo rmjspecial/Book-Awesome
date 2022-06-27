@@ -40,8 +40,8 @@ function updateUI() {
     const par = document.createElement('p');
     par.textContent = `${data.title} By ${data.author}`;
     const btnRemove = document.createElement('button');
-    const spaceline=document.createElement('hr');
-   
+    const spaceline = document.createElement('hr');
+
     btnRemove.classList.add('removebtn');
     btnRemove.textContent = 'Remove';
     btnRemove.addEventListener('click', removeBook.bind(index));
