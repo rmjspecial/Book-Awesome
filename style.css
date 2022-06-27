@@ -2,3 +2,20 @@ html {
   outline: none;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.content {
+  margin: 44px;
+  width: 400px;
+}
+
+form{
+  margin-top: 61px;
+}
+
+.removebtn{
+  background-color: brown;
+}
+
+h1{
+  padding-bottom: 22px;
+}
