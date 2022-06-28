@@ -26,9 +26,8 @@
 
 👤 **Shaqayq**
 
-- GitHub: 
-- Twitter: 
-- LinkedIn: 
+- GitHub:[@githubhandle](https://github.com/shaqayq)
+- LinkedIn:  [LinkedIn](https://www.linkedin.com/in/shaqayq-darwazi-0a7487233/)
 
 ## 🤝 Contributing
 
