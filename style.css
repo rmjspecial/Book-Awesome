@@ -7,7 +7,6 @@
 body {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to bottom, #68eacc 0%, #4978e8 100%);
 }
 
 .Books {
@@ -60,6 +59,7 @@ body {
   padding: 10px 25px;
   border: none;
   border-radius: 8px;
+  margin-left: 201px;
 }
 
 .Books .container .inputs .add:hover {
@@ -87,7 +87,7 @@ body {
   right: 0;
   height: 100%;
   padding: 0 20px;
-  border: none;
+  border: 1px solid black;
   background-color: rgba(135, 152, 168, 0.699);
   text-transform: uppercase;
 }
