@@ -4,6 +4,8 @@
 
 > A plain javascript project that can keep track of a list of books utilizing localStorage.
 
+[See live demo](https://rmjspecial.github.io/Book-Awesome/)
+
 ## Built With
 
 - HTML
