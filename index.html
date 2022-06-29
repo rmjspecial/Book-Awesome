@@ -14,22 +14,41 @@
   />
 </head>
 <body>
-    <div class="Books">
-        <div class="container">
-            <h1 class="title">All awesome books</h1>
-            <table class="table table-striped booksList" id="list"></table>
-            <hr class="tablehr">
-            <h2 class="title">Add a new book</h2>
-            <form class="inputs">
-                <input type="text" id="title" placeholder="title" name="title" required/>
-                
-                <input type="text" id="Author" placeholder="Author" name="Author" required/>
-                
-                <button class="btn btn-info add" type="button">Add</button>
-            </form>
+   <div class="container-fluid">
+    <nav class="navbar">
+        <h2 class="list-inline">Awesome Book</h2>
+            <ul class="list-inline">
+                <li class="list-inline-item" onclick="list();">List</li>
+                <li class="list-inline-item" onclick="addBook();">Add Book</li>
+                <li class="list-inline-item" onclick="contactPage();">contact</li>
+            </ul>
+        </nav>
+        <div class="Books">
+            <div class="container">
+                <h1 class="title">All awesome books</h1>
+                <table class="table table-striped booksList" id="list"></table>
+                <hr class="tablehr">
+            </div>
         </div>
-    </div>
-    
-    <script src="app.js"></script>
+        <div class="addBook">
+            <h2 class="title">Add a new book</h2>
+                <form class="inputs">
+                    <hr>
+                    <input type="text" id="title" placeholder="title" name="title" required/>
+                    
+                    <input type="text" id="Author" placeholder="Author" name="Author" required/>
+                    
+                    <button class="btn btn-info btn-sm add" type="button">Add</button>
+                </form>
+        </div>
+        <div class="contact">
+        </div>
+        
+        
+        <footer class="footer">
+            <h5>CopyRight</h5>
+        </footer>
+   </div>
+   <script src="app.js"></script>
 </body>
 </html>
