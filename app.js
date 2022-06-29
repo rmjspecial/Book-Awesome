@@ -123,45 +123,6 @@ function contactPage() {
   container.style.display = 'none';
   Book.style.display = 'none';
   contact.style.display = 'flex';
-
-  const title = document.createElement('h1');
-  contact.appendChild(title);
-  title.classList.add('title');
-  title.innerHTML = 'Contact Information';
-
-  const paragraph = document.createElement('p');
-  contact.appendChild(paragraph);
-  paragraph.classList.add('paragraph');
-  paragraph.innerHTML = 'Do you have any question ?';
-
-  const titleP = document.createElement('h4');
-  contact.appendChild(titleP);
-  titleP.classList.add('titleP');
-  titleP.innerHTML = 'You can reach out to us';
-
-  const list = document.createElement('ul');
-  contact.appendChild(list);
-  list.classList.add('list');
-
-  const listItem1 = document.createElement('li');
-  list.appendChild(listItem1);
-  const h1 = document.createElement('h5');
-  listItem1.appendChild(h1);
-  h1.innerHTML = 'Our Email mail@mail.com';
-
-  const listItem2 = document.createElement('li');
-  list.appendChild(listItem2);
-  const h2 = document.createElement('h5');
-  listItem2.appendChild(h2);
-  h2.innerHTML = 'Our phone number +919 345 678 89';
-
-  const listItem3 = document.createElement('li');
-  list.appendChild(listItem3);
-  const h3 = document.createElement('h5');
-  listItem3.appendChild(h3);
-  h3.innerHTML = 'Our address Kabul Afghanistan';
-
-  return contact;
 }
 
 function addBook() {
