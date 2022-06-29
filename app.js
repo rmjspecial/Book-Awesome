@@ -114,3 +114,29 @@ books.handlesubmit();
 books.getData();
 books.checkLocal();
 books.remover();
+
+const container = document.querySelector('.container');
+const contact = document.querySelector('.contact');
+const Book = document.querySelector('.addBook');
+
+function contactPage() {
+  container.style.display = 'none';
+  Book.style.display = 'none';
+  contact.style.display = 'flex';
+}
+
+function addBook() {
+  container.style.display = 'none';
+  Book.style.display = 'flex';
+  contact.style.display = 'none';
+}
+
+function list() {
+  container.style.display = 'block';
+  Book.style.display = 'none';
+  contact.style.display = 'none';
+}
+
+list();
+addBook();
+contactPage();
