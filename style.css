@@ -131,6 +131,11 @@ body {
 .navbar ul li {
   font-size: 25px;
   padding: 20px;
+  
+}
+
+.navbar ul li:nth-last-child(n+2){
+
   border-right: 1px solid black;
 }
 

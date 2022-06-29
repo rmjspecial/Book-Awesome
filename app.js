@@ -176,6 +176,6 @@ function list() {
   contact.style.display = 'none';
 }
 
+contactPage();
 list();
 addBook();
-contactPage();
